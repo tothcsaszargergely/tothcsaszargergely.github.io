@@ -1,4 +1,6 @@
 .doboz {
-    border-color: black;
-    border-style: double;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid black 10px;
+    padding: 5px;
 }
