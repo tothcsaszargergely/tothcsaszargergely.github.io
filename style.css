@@ -1,8 +1,9 @@
 .cim {
-    background-color: grey;
-    border: solid 2px;
+    background-color: tomato;
     padding-left: 80px;
     padding-right: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .doboz {
     box-sizing: border-box;
@@ -14,4 +15,8 @@
 .doboznagy {
     padding-left: 80px;
     padding-right: 80px;
+    background-color: azure;
+}
+.doboz:hover {
+    background-color: tomato;
 }
