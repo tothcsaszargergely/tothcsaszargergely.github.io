@@ -9,7 +9,7 @@ $('button').on('click', (event) => {
     let content = $('#content').val()
     console.log (content);
     let dataToSave = { title: title, time: time, content: content};
-    database.ref("blogtcsg").push(dataToSave);
+    fb.ref("postok").push(dataToSave);
 
     if (title === ""|| time === ""|| content === "") {     
     }
