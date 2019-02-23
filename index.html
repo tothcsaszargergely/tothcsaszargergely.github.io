@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- link-->
+    <link rel="stylesheet" href="style.css">
     <title>TCSG Blog - GreenFoxAcademy</title>
 </head>
 <body>
-    <h1>The Blog</h1>
-    <h2>Add new post</h2>
-    <form>
-      <h3>Title</h3>
-      <input type="text" id="title">
-      <h3>Content</h3>
-      <input type="text" id="content">
-      <button type="submit" id="submitbutton">Submit</button>
-    </form>
-    <h2>Posts</h2>
-    <div class="doboz">
-      <h1>Lorem ipsum dolor sit amet</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h1 class="cim">The Blog</h1>
+    <div class="doboznagy">
+      <h2>Add new post</h2>
+      <form>
+        <h3>Title</h3>
+        <input type="text" id="title">
+        <input type="date" name="" id="time">
+        <h3>Content</h3>
+        <input type="text" id="content">
+        <button type="submit" id="submitbutton">Submit</button>
+      </form>
+      <h2>Posts</h2>
+      <div class="doboz">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <h2>1999-01-01</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </div>
 
 
@@ -36,6 +42,7 @@
         messagingSenderId: "591599273761"
       };
       firebase.initializeApp(config);
+      fb = firebase.database();
     </script>
     <script src="index.js"></script>
 </body>

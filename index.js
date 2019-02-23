@@ -1,21 +1,25 @@
 console.log('Mukodik')
 
 $('button').on('click', (event) => {
-    let todo = $('input').val()
-    console.log (todo);
-    if (todo === "") {     
+    event.preventDefault();
+    let title = $('#title').val()
+    console.log (title);
+    let time = $('#time').val()
+    console.log (time);
+    let content = $('#content').val()
+    console.log (content);
+    if (title === ""|| time === ""|| content === "") {     
     }
     else {
-        $('ul').append(
+        $('.doboznagy').append(
             `
-            <li>${todo}</li>
+            <div class="doboz">
+            <h1>${title}</h1>
+            <h2>${time}</h2>
+            <p>${content}</p>
+            </div>
             `
-          );
-          $('input').val("")   
-    }
-    });
-    $('ul').on('click', (event) => {
-        console.log (event);
-        console.log (event.target);
-        $(event.target).css('text-decoration','line-through')
+        );
+        $('input').val("");  
+        }    
     });
