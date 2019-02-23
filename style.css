@@ -11,15 +11,19 @@
     border: solid black 2px;
     padding: 5px;
     margin-bottom: 10px;
+    background-color: white;
 }
 .doboznagy {
     padding-left: 80px;
     padding-right: 80px;
-    background-color: beige;
+    background-color: bisque;
 }
 .doboz:hover {
     background-color: tomato;
 }
 .footer {
     text-align: center;
+}
+#content {
+    
 }
