@@ -1,3 +1,5 @@
+console.log('Mukodik')
+
 $('button').on('click', (event) => {
     let todo = $('input').val()
     console.log (todo);
