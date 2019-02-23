@@ -8,6 +8,9 @@ $('button').on('click', (event) => {
     console.log (time);
     let content = $('#content').val()
     console.log (content);
+    let dataToSave = { title: title, time: time, content: content};
+    database.ref("blogtcsg").push(dataToSave);
+
     if (title === ""|| time === ""|| content === "") {     
     }
     else {
