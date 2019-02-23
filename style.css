@@ -15,8 +15,11 @@
 .doboznagy {
     padding-left: 80px;
     padding-right: 80px;
-    background-color: azure;
+    background-color: seashell;
 }
 .doboz:hover {
     background-color: tomato;
+}
+.footer {
+    text-align: center;
 }
