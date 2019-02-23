@@ -7,7 +7,29 @@
     <title>Document</title>
 </head>
 <body>
-    Hello idegen ;)
-    Itt mindjárt lesz valami
+    <h1>My Simple ToDo List</h1>
+    <h2>Todos</h2>
+    <ul>
+        <li>Buy milk</li> 
+    </ul>
+    <input type="text">
+    <button>Add todo</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDCDPNUEioLeuHgxPf-KSx-UJT32ig2WwY",
+        authDomain: "blogtcsg.firebaseapp.com",
+        databaseURL: "https://blogtcsg.firebaseio.com",
+        projectId: "blogtcsg",
+        storageBucket: "blogtcsg.appspot.com",
+        messagingSenderId: "591599273761"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="index.js"></script>
 </body>
 </html>
