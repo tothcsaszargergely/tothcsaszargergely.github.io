@@ -28,8 +28,8 @@ $('button').on('click', (event) => {
             $('.doboznagy').append(
                 `
                 <div class="doboz">
-                <h1>${title}</h1>
-                <h2>${time}</h2>
+                <h2>${title}</h2>
+                <h3>${time}</h3>
                 <p>${content}</p>
                 </div>
                 `
