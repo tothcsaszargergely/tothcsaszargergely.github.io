@@ -14,9 +14,11 @@
     background-color: white;
 }
 .doboznagy {
-    padding-left: 80px;
-    padding-right: 80px;
-    background-color: bisque;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-position: center;
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
 }
 .doboz:hover {
     background-color: tomato;
@@ -25,5 +27,5 @@
     text-align: center;
 }
 #content {
-    
+
 }
